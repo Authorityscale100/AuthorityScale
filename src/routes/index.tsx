@@ -29,6 +29,7 @@ function Home() {
         <div className="hidden md:flex gap-6 text-sm font-medium text-gray-600 dark:text-gray-400">
           <a href="#about" className="hover:text-indigo-600 transition-colors">About</a>
           <a href="#solutions" className="hover:text-indigo-600 transition-colors">Solutions</a>
+          <a href="/assessment" className="hover:text-indigo-600 transition-colors font-bold text-indigo-600">Free Assessment</a>
           <a href="#contact" className="hover:text-indigo-600 transition-colors">Contact</a>
         </div>
       </nav>
@@ -46,10 +47,10 @@ function Home() {
             We identify high-growth companies at key milestones and provide the strategic media exposure and credibility needed to dominate your market.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="#contact" className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-bold transition-all shadow-lg shadow-indigo-200 dark:shadow-none">
-              Get Started
+            <a href="/assessment" className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-bold transition-all shadow-lg shadow-indigo-200 dark:shadow-none text-center">
+              Free Authority Assessment
             </a>
-            <a href="#solutions" className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-50 transition-all">
+            <a href="#solutions" className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-50 transition-all text-center">
               Our Solutions
             </a>
           </div>
@@ -97,8 +98,9 @@ function Home() {
               <p className="text-gray-600 dark:text-gray-400 text-sm">Strategic placements in high-authority news outlets to validate your brand.</p>
             </div>
             <div className="p-8 border dark:border-gray-800 rounded-2xl hover:border-indigo-500 transition-colors">
-              <h4 className="text-lg font-bold mb-2">Authority Scoring</h4>
-              <p className="text-gray-600 dark:text-gray-400 text-sm">Understand your current market credibility and discover gaps to fill.</p>
+              <h4 className="text-lg font-bold mb-2">Authority Intelligence</h4>
+              <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">Real-time assessment of your market standing and credibility gap analysis.</p>
+              <a href="/assessment" className="text-indigo-600 font-bold text-sm hover:underline">Try Free Tool →</a>
             </div>
             <div className="p-8 border dark:border-gray-800 rounded-2xl hover:border-indigo-500 transition-colors">
               <h4 className="text-lg font-bold mb-2">PR Readiness</h4>
