@@ -119,16 +119,17 @@ function Assessment() {
                 <h3 className="text-xl font-bold">Recommended Actions:</h3>
                 <div className="grid gap-4">
                   <a 
-                    href="https://www.brandpush.co/?ref=authorityscale" 
+                    href="https://www.brandpush.co/?ref=65030" 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-between p-4 border dark:border-gray-700 rounded-xl hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-colors text-left"
+                    className="flex items-center justify-between p-6 border-2 border-indigo-600 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl hover:scale-[1.02] transition-all text-left shadow-xl"
                   >
                     <div>
-                      <div className="font-bold text-indigo-600">Boost Visibility via BrandPush</div>
-                      <div className="text-sm text-gray-500">Get featured on 200+ news sites instantly.</div>
+                      <div className="text-xs font-bold uppercase tracking-wider text-indigo-500 mb-1">Critical Fix</div>
+                      <div className="font-black text-2xl text-indigo-700 dark:text-indigo-300">FIX YOUR AUTHORITY NOW</div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400 mt-1 font-medium">Get featured on 200+ premium news sites instantly.</div>
                     </div>
-                    <span>→</span>
+                    <span className="text-3xl animate-bounce">🚀</span>
                   </a>
                   <button className="w-full bg-gray-900 dark:bg-white dark:text-gray-900 text-white font-bold py-4 rounded-xl transition-colors">
                     Book Full Intelligence Briefing
