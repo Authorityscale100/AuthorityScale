@@ -13,7 +13,8 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "My site" },
+      { title: "AuthorityScale AI — Be the name buyers trust" },
+      { name: "description", content: "Authority intelligence for ambitious teams. See where credibility is being won—and where opportunity is being missed." },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
   }),
@@ -36,15 +37,6 @@ function RootDocument({ children }: { children: ReactNode }) {
         <HeadContent />
       </head>
       <body>
-        <div className="sticky top-0 z-[100] bg-amber-400 text-black py-2.5 px-4 text-center text-sm font-black shadow-lg border-b border-amber-500">
-          <div className="flex items-center justify-center gap-2">
-            <span className="flex h-2 w-2 rounded-full bg-red-600 animate-pulse"></span>
-            <span>URGENT: Is your brand authority leaking?</span>
-            <a href="/assessment" className="bg-black text-white px-3 py-1 rounded ml-1 hover:bg-gray-800 transition-all text-[10px] sm:text-xs tracking-tighter uppercase">
-              Get a 30-second audit &rarr;
-            </a>
-          </div>
-        </div>
         {children}
         <Scripts />
       </body>

@@ -11,6 +11,9 @@ node_modules
 /dist/
 /dist-ssr/
 
+# Vercel Build Output API bundle (produced by build-vercel.sh at go-live).
+/.vercel/
+
 # Runtime server log written on start.
 /.run/
 
